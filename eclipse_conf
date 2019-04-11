@@ -1,0 +1,12 @@
+eclipse cdt代码悬停窗口背景颜色设置(转载)
+http://now-code.com/archives/202
+ 
+在eclipse中编写C++代码时，有一个很方便的功能，是当鼠标停放在某一个函数或变量上不同时，会出现一个悬停框，显示该函数或变量的声明 体。但是，
+
+从Ubuntu 10.04之后，这个悬停框便出现了一些小问题：所有弹出的悬停框背景都是黑色的，这样有一些黑色的代码就不能显示了，很不方便。
+
+之所以这样是因为这个悬停框的背景是由gnome桌面的主题决定的，而解决的办法就是让eclipse的悬停框不使用系统主题背景。设置如下：
+打开eclipse，依次选择：
+
+Windows -> Preferences -> C/C++ -> Editor
+在右边的编辑区选择“Apperance color options”中的“Source hover background”，把右边的“System default”前的标记去掉，选择自己喜欢的一个颜色即可。
